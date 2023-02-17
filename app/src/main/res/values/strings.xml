@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P5_Shopping_List</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="delete_all">Delete All</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="product_name">Product Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_price">Unit price</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="total_purchase">Total purchase:</string>
+</resources>

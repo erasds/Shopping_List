@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">28sp</dimen>
+    <dimen name="editText_margin">20dp</dimen>
+    <dimen name="editText_name_topMargin">40dp</dimen>
+    <dimen name="main_text_size">24sp</dimen>
+    <dimen name="totalPrice_text_size">48sp</dimen>
+    <dimen name="totalPurchase_text_size">38sp</dimen>
+</resources>

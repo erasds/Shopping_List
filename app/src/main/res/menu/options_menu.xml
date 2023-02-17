@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shoppingList"
+        android:icon="@drawable/icon"
+        android:title="@string/shopping_list"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/deleteAll"
+        android:title="@string/delete_all" />
+
+    <item
+        android:id="@+id/backup"
+        android:title="@string/backup" />
+
+    <item
+        android:id="@+id/restore"
+        android:title="@string/restore" />
+
+</menu>

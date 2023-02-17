@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_name_topMargin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:hint="@string/product_name"
+        android:inputType="text"
+        android:maxLength="10"/>
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:hint="@string/quantity"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etUnitPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:hint="@string/unit_price"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/add"
+        android:textSize="@dimen/button_text_size"
+        android:backgroundTint="@color/mercadona"/>
+
+</LinearLayout>
